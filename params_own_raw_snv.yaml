@@ -1,0 +1,25 @@
+input: "/home/mythys/projects2/raredisease/samplesheet_own.csv"
+outdir: "/home/mythys/raredisease-run/results_mygenome_raw_snv"
+genome: "GRCh38"
+
+fasta: "/home/mythys/refs/raredisease_grch38/hg38_v0_Homo_sapiens_assembly38.fasta"
+fai: "/home/mythys/refs/raredisease_grch38/hg38_v0_Homo_sapiens_assembly38.fasta.fai"
+sequence_dictionary: "/home/mythys/refs/raredisease_grch38/hg38_v0_Homo_sapiens_assembly38.dict"
+
+aligner: "bwa"
+mt_aligner: "bwa"
+bwa: "/home/mythys/refs/raredisease_grch38/"
+
+analysis_type: "wgs"
+variant_caller: "deepvariant"
+
+intervals_wgs: "/home/mythys/projects2/raredisease/assets/chr1-chr22chrXchrYchrM_grch38.interval_list"
+intervals_y: "/home/mythys/projects2/raredisease/assets/chrY_grch38.interval_list"
+
+vep_filters: "/home/mythys/projects2/raredisease/assets/local_filters/vep_filters_hgnc.txt"
+
+skip_subworkflows: "snv_annotation,sv_annotation,mt_annotation,mt_subsample,me_calling,me_annotation,sv_calling,repeat_calling,repeat_annotation"
+skip_tools: "fastp,gens,haplogrep3,peddy,germlinecnvcaller,qualimap,eklipse,ngsbits,smncopynumbercaller"
+
+scatter_count: 4
+save_reference: true
