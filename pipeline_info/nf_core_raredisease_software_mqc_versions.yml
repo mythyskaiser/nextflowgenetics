@@ -1,0 +1,106 @@
+ADD_VARCALLER_TO_BED:
+  tabix: 1.12
+BCFTOOLS_ANNOTATE:
+  bcftools: 1.2
+BWA:
+  bwa: 0.7.18-r1243-dirty
+  samtools: 1.2
+BWA_INDEX_MT:
+  bwa: 0.7.18-r1243-dirty
+BWA_INDEX_MT_SHIFT:
+  bwa: 0.7.18-r1243-dirty
+BWA_MEM_MT:
+  bwa: 0.7.18-r1243-dirty
+  samtools: 1.2
+CHROMOGRAPH_COV:
+  chromograph: 1.3.1
+CREATE_PEDIGREE_FILE:
+  create_pedigree_file: v1.0
+  python: 3.8.3
+DEEPVARIANT:
+  deepvariant: 1.8.0
+FASTQC:
+  fastqc: 0.12.1
+GATK4_FILTERMUTECTCALLS_MT:
+  gatk4: 4.5.0.0
+GATK4_MERGEBAMALIGNMENT_MT:
+  gatk4: 4.5.0.0
+GATK4_MERGEVCFS_LIFT_UNLIFT_MT:
+  gatk4: 4.5.0.0
+GATK4_MUTECT2_MT:
+  gatk4: 4.5.0.0
+GATK4_PRINTREADS_MT:
+  gatk4: 4.5.0.0
+GATK4_REVERTSAM_MT:
+  gatk4: 4.5.0.0
+GATK4_SAMTOFASTQ_MT:
+  gatk4: 4.5.0.0
+GATK4_SELECTVARIANTS:
+  gatk4: 4.5.0.0
+GATK4_VARIANTFILTRATION_MT:
+  gatk4: 4.5.0.0
+GATK_SD_MT:
+  gatk4: 4.5.0.0
+GATK_SHIFTFASTA:
+  gatk4: 4.5.0.0
+GET_CHROM_SIZES:
+  coreutils: 8.31
+GLNEXUS:
+  glnexus: 1.4.1-0-g68e25e5
+HAPLOCHECK_MT:
+  haplocheck: 1.3.3
+MARKDUPLICATES:
+  picard: 3.3.0
+MOSDEPTH:
+  mosdepth: 0.3.8
+PICARD_ADDORREPLACEREADGROUPS_MT:
+  picard: 3.3.0
+PICARD_COLLECTMULTIPLEMETRICS:
+  picard: 3.3.0
+PICARD_COLLECTWGSMETRICS_WG:
+  picard: 3.3.0
+PICARD_COLLECTWGSMETRICS_Y:
+  picard: 3.3.0
+PICARD_LIFTOVERVCF:
+  picard: 3.3.0
+PICARD_MARKDUPLICATES_MT:
+  picard: 3.3.0
+REMOVE_DUPLICATES_GL:
+  bcftools: 1.2
+REMOVE_DUPLICATES_MT:
+  bcftools: 1.2
+SAMTOOLS_EXTRACT_MT:
+  samtools: 1.21
+SAMTOOLS_FAIDX_MT:
+  samtools: 1.21
+SAMTOOLS_INDEX_ALIGN:
+  samtools: 1.21
+SAMTOOLS_INDEX_MARKDUP:
+  samtools: 1.21
+SAMTOOLS_INDEX_MT:
+  samtools: 1.21
+SAMTOOLS_SORT_MT:
+  samtools: 1.21
+SAMTOOLS_STATS:
+  samtools: 1.21
+SPLIT_MULTIALLELICS_GL:
+  bcftools: 1.2
+SPLIT_MULTIALLELICS_MT:
+  bcftools: 1.2
+TABIX_ANNOTATE:
+  tabix: 1.2
+TABIX_GL:
+  tabix: 1.2
+TABIX_TABIX_MERGE:
+  tabix: 1.2
+TABIX_TABIX_MT2:
+  tabix: 1.2
+TABIX_TABIX_MT:
+  tabix: 1.2
+TIDDIT_COV:
+  tiddit: 3.6.1
+UCSC_WIGTOBIGWIG:
+  ucsc: 447
+Workflow:
+    nf-core/raredisease: v2.6.0
+    Nextflow: 25.10.4
